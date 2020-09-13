@@ -12,64 +12,64 @@ int main() {
 			if (A > B && A > C) {
 				if (a == 0) {
 					A = A / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 				else {
 					A = A - 1;
 					A = A / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 			}
 			else if (A == B && A > C) {
 				if (a == 0) {
 					A = A / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 				else {
 					A = A - 1;
 					A = A / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 			}
 			else if (A == C && A > B) {
 				if (a == 0) {
 					A = A / 2;
-					//	printf("%d %d %d\n",A,B,C);
+					
 				}
 				else {
 					A = A - 1;
 					A = A / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 			}
 			//B
 			else if (B > A && B > C) {
 				if (b == 0) {
 					B = B / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 				else {
 					B = B - 1;
 					B = B / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 			}
 			else if (B == C && B > A) {
 				if (b == 0) {
 					B = B / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 				else {
 					B = B - 1;
 					B = B / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 			}
 			//C
 			else {
 				if (c == 0) {
 					C = C / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 				else if (C == 1) {
 					break;
@@ -77,7 +77,7 @@ int main() {
 				else {
 					C = C - 1;
 					C = C / 2;
-					//printf("%d %d %d\n",A,B,C);
+					
 				}
 			}
 			i++;
